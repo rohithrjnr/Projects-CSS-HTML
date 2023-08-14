@@ -1,0 +1,69 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title id="title"> TRIBUTE PAGE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main id="main">
+        <h1>SHAH RUKH KHAN</h1>
+        <p>A tribute to the King</p>
+        <div id="img-div">
+          <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg">
+          <figcaption id="img-caption">
+            THE KING OF BOLLYWOOD SRK      
+            </figcaption>
+          </div>
+          <div id="tribute-info">
+            <p>What is so great about SRK?</p>
+            <ul>
+              <li>A god level charm</li>
+              <li>A Self depricating sense of humour</li>
+              <li>Introducing Bollywood cinema to the international audience</li>
+              <li>A great actor</li>
+              <li>8 filmfare awards</li>
+              <li>Performances that put others to shame</li>
+              <li>Industry defining hits in 4 decades(ddlj,om shanti om, chennai express, pathaan)</li>
+              <li>Bollywood's highest grossing film(pathaan)</li>
+              <li>India's 4th highest grossing film(pathaan)</li>
+              <li>World's 2nd richest actor</li>
+              <li>India's ambassador to the world</li>
+              <li>Worlds biggest moviestar</li>
+              </ul>
+            </div>
+            <p>To know more about him, <a href="https://en.wikipedia.org/wiki/Shah_Rukh_Khan" id="tribute-link" target="_blank">click here.</a> 
+
+        </main>
+      </body>
+      </html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  max-width: 100%;
+}
+h1,p {
+  text-align: center;
+  background-color: rgb(220,220,250)
+}
+figcaption {
+  text-align: center;
+  font-size: 70%;
+}
+h1 {
+  color: grey;
+  border: 2px solid grey
+}
+body {
+  background-color: rgb(240,240,250)
+
+** end of undefined **
+
