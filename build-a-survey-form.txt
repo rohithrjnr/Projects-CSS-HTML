@@ -1,0 +1,92 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>surveyform</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">An Introduction: Survey Form</h1>
+      <p id="description">A quick survey to understand the things learned in HTML</p>
+      <form method="post" id="survey-form">
+        <fieldset>
+        <label for="text" id="name-label">Name: <input type="text" id="name" placeholder="Enter your name" required></label><br>
+        <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter your email" required></label><br>
+        <label id="number-label">Age: <input type="number" id="number" min="13" max="100" placeholder="Enter your age"></label><br>
+        <label for="dropdown">What is your current role?
+          <select id="dropdown">
+          <option value="">(Choose an option)</option>
+          <option value="1">Student</option>
+          <option value="2">Unemployed</option>
+          <option value="3">Intern</option>
+          <option value="4">Employed</option>
+          </select>
+          </label>
+          <br>
+              <label for="textarea">Can you tell us about yourself:
+              <textarea id="textarea" name="bio" placeholder="I am a...."></textarea>
+          </fieldset>
+          <fieldset>
+            <label for="radio">Are you familiar with HTML and CSS?:<br>
+              <input type="radio" value="yes" name="radio1" id="yes" checked>Yes
+              <input type="radio" value="no" name="radio1" id="no">No
+              </label>
+              <br>
+              <label for="radio">Are you familiar with Python?:<br>
+              <input type="radio" value="yes" name="radio2" id="yes" checked>Yes
+              <input type="radio" value="no" name="radio2" id="no">No
+              </label>
+              <br>
+              <label>Are you familiar with these concepts?: 
+<br>
+Form<input type="checkbox" id="checkbox" value="form">
+Css<input type="checkbox" id="checkbox" value="css">
+Tables<input type="checkbox" id="checkbox" value="tables">
+</label>
+ 
+
+              </fieldset>
+          <input type="submit" id="submit">
+        </form>
+      </body>
+  </html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+}
+ body {
+  background: linear-gradient(linen, blue);
+  margin: 10px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  color: rgba(150,0,0,0.5);
+  margin-bottom: 0px;
+  }
+p {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: white;
+  border-color: white;
+  min-width: 300px;
+}
+
+** end of undefined **
+
