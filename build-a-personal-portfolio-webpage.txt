@@ -1,0 +1,328 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rohith Raj Nambiar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="header">
+        <nav id="navbar">
+            <a href="#sndpage">My Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </header>
+        <section id="welcome-section">
+          <h1 id="name">Hello, I am Rohith Raj Nambiar</h1>
+          <p id="position">an IT engineer</p>
+          </section>
+          <section id="sndpage">
+            <p></p>
+            <p></p>
+            <p></p>
+          <h1 id="here"> Here are my Projects using HTML and CSS</h1>
+          <section id="projects">
+           <section id="project1">
+             <img src="https://drive.google.com/uc?export=view&id=12u1FD_aTua8WnTBkUNXNufXMMbbPviKP"></img>
+             <a href="https://github.com/rohithrjnr/Projects-CSS-HTML/blob/2291fb7424ee69ea60e5ec2e6f5b04220e2f98c0/build-a-survey-form.txt" class="project-tile">Survey form</a>
+             </section>
+             <section id="project2">
+               <img src="https://drive.google.com/uc?export=view&id=1MlJXvtcEIUt9k03WhwGNZ4JcGt2B3Fi6"></img>
+             <a href="https://github.com/rohithrjnr/Projects-CSS-HTML/blob/fe4f53f7b50f097af21a31f24b3c6ae39f0eae1a/build-a-technical-documentation-page.txt" class="project-tile">Technical Documentation Page</a>
+             </section>
+             <section id="project3">
+               <img src="https://drive.google.com/uc?export=view&id=1xbaA-aFQUH2qZu2zk-KE9gItGCEQ1Mcw"></img>
+             <a href="https://github.com/rohithrjnr/Projects-CSS-HTML/blob/fe4f53f7b50f097af21a31f24b3c6ae39f0eae1a/build-a-tribute-page.txt" class="project-tile">Tribute Page</a>
+             </section>
+             <section id="project4">
+               <img src="https://drive.google.com/uc?export=view&id=1WCVvOedrd3ZdhqTZ5-gjg5lVW9nuf0H-"></img>
+             <a href="https://github.com/rohithrjnr/Projects-CSS-HTML/blob/fe4f53f7b50f097af21a31f24b3c6ae39f0eae1a/build-a-product-landing-page.txt" class="project-tile">Survey form</a>
+             </section>
+              
+            </section>
+           
+            </section>
+      <section id="about">
+        <p></p>
+            <p></p>
+            <p></p>
+        <h2 id="fname">About me</h2>
+        <br>
+        <div id="section"><h4 id="nme">Name: Rohith Raj Nambiar</h4>
+        <p id="dob">DOB: 24/12/2001</p>
+        <p id="place">Place: Cherukunnu, Kerala, India</p>
+        
+        <p>Details: Graduated from College of Engineering Trikaripur with a first class in Btech Information Technology. Passionate Learner. Completed courses on Python, HTML and CSS. Currently learning Javascript.</p>
+        <h4>Qualities and Expertise</h4>
+<p id="lists">  <li>HTML</li>
+  <li>CSS</li>
+  <li>Python</li>
+  <li>Front End Development</li>
+  <li>Leadership</li>
+  <li>Management Skills</li>
+  <li>Photoshop</li>
+  <li>Microsoft Excel, Access, Powerpoint, Word</li>
+</p>
+<h4 id="rsm"><a href="https://drive.google.com/uc?export=view&id=1w3LToffm-p3kiPf3MWo7X3lBz5YcPIUZ" id="rsume">Click Here</a> for My Resume</h4>
+</div>
+        </section>
+        <section id="contact">
+          <h2 id="lets">Lets Work Together</h2>
+          <p id="contactme">Contact me for more details</p>
+          <div class="social-icons">
+          <a href="https://www.facebook.com/rohithrjnr">
+            <i class="fab fa-facebook-f">Facebook&nbsp</i>
+          </a>
+          <a href="https://twitter.com/Rohithrjnr43?t=ArCymHHIEmwIUyL5ucumJw&s=09">
+            <i class="fab fa-twitter">Twitter&nbsp</i>
+          </a>
+          <a href="https://instagram.com/_.so_u_l_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank" id="profile-link">
+            <i class="fab fa-instagram">Instagram&nbsp</i>
+          </a>
+          <a href="https://www.linkedin.com/in/rohith-raj-nambiar">
+            <i class="fab fa-linkedin-in">Linkedin&nbsp</i>
+          </a>
+          <a href="https://github.com/rohithrjnr">
+            <i class="fab fa-github">Github</i>
+          </a>
+        </div>
+
+          </section>
+          <footer id="footer">
+            <p id="foottext"><span>&#169;</span>&nbspCreated by Rohith Raj</p> 
+            
+      </body>
+      </html>
+
+** end of undefined **
+
+** start of undefined **
+
+*,*::before,*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: black;
+}
+#header {
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(98.3deg, rgb(23, 2, 23) 10.6%, rgb(255, 0, 0) 97.7%);
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  position:fixed;
+}
+nav {
+  justify-content: space-evenly;
+  top: 0;
+  left: 0;
+}
+nav > a {
+  text-decoration: none;
+  font-size: 150%;
+
+  font-family: Anton;
+  color: lemonchiffon;
+  padding-top: 20px;
+   padding-left: 20px;
+    padding-right: 20px;
+     padding-bottom: 4px;
+
+}
+nav > a:hover {
+  background-color: grey;
+}
+nav > a:active {
+  background-color: grey;
+}
+section {
+  color: linen;
+}
+#welcome-section{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(112.1deg, rgb(32, 30, 57) 11.4%, rgb(63, 76, 110) 70.2%);
+}
+#name {
+  font-family: Baskervville, sans-serif;
+  font-size: 250%;
+}
+#position {
+  font-family: Raleway;
+  font-size: 25px;
+}
+#sndpage {
+  width:100%;
+  height: 100%;
+  background: linear-gradient(112.1deg, rgb(32, 30, 57) 11.4%, rgb(63, 66, 100) 70.2%);
+}
+#projects{
+  
+  display: grid;
+  align-items: center; 
+   gap: 10px;
+   justify-content: center;
+}
+#here {
+  text-align: center;
+  font-size: 180%;
+  font-family: Raleway,sans-serif;
+  word-spacing: 2px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid linen; 
+}
+img {
+ display: block; 
+}
+#project1, #project2, #project3, #project4{
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction:column;
+
+
+}
+
+.project-tile {
+  color: linen;
+  text-decoration: none; 
+  font-size: 150%;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #0a2351;
+  background-color: #0a2351;
+}
+#project1 {
+  grid-column:1;
+  grid-row: 1;
+}
+#project2 {
+  grid-column:2;
+  grid-row: 1;
+}
+#project3 {
+  grid-column:1;
+  grid-row: 2;
+}
+#project4 {
+  grid-column:2;
+  grid-row: 2;
+}
+#about {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(112.1deg, rgb(32, 30, 57) 11.4%, rgb(63, 76, 110) 70.2%);
+  padding: 10px;
+}
+#rsume {
+  text-decoration: none;
+  color: linen;
+}
+#rsume:hover {
+  color: gold;
+}
+.project-tile:hover {
+  color: gold;
+}
+#fname {
+  text-align: center;
+  border-bottom: 1px solid linen;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Raleway, sans-serif;
+}
+h4 {
+  padding: 10px;
+}
+p {
+  padding: 10px;
+}
+#nme {
+  padding-top:30px;
+}
+#section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#rsm {
+  text-align: center;
+  border-bottom: 1px solid linen;
+}
+@media only screen and (min-width: 800px){
+  #section {
+    font-size: 150%;
+  }
+  #fname {
+    font-size: 200%;
+  }
+  
+}
+#contact {
+width: 100%;
+height:100%;
+background: linear-gradient(112.1deg, rgb(32, 30, 57) 11.4%, rgb(63, 66, 100) 70.2%);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+i {
+  color: linen;
+  font-size: 120%;
+  
+}
+i:hover {
+  color: gold;
+}
+@media only screen and (min-width: 750px){
+  i {
+  color: linen;
+  font-size: 180%;
+}
+}
+#lets {
+  font-size: 180%;
+  font-family: Raleway,sans-serif;
+}
+#contactme {
+  font-size: 110%;
+}
+#footer {
+  width:100%;
+  height: 60px;
+  background: linear-gradient(98.3deg, rgb(23, 2, 23) 10.6%, rgb(255, 0, 0) 97.7%);
+}
+#foottext {
+  color: linen;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+** end of undefined **
+
